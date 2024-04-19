@@ -8,6 +8,12 @@ vim.o.hlsearch = false
 -- Make line numbers default
 vim.wo.number = true
 
+-- Enable relative line numbers
+vim.wo.relativenumber = true
+
+-- Enable scroll offset
+vim.o.scrolloff = 15
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
